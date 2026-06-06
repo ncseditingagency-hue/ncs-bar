@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { REST, Routes } = require('@discordjs/rest');
-const commands = require('./commands'); // il tuo file commands.js
+const commands = require('./index');
 
 const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
 
