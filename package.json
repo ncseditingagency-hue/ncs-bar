@@ -1,0 +1,11 @@
+{
+  "name": "editbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.15.0",
+    "@discordjs/rest": "^2.3.0",
+    "discord-api-types": "^0.37.97",
+    "dotenv": "^16.4.5"
+  }
+}
